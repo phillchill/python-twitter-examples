@@ -22,7 +22,7 @@ twitter = Twitter(
 #-----------------------------------------------------------------------
 # this is the user whose friends we will list
 #-----------------------------------------------------------------------
-username = "ideoforms"
+username = config["username"]
 
 #-----------------------------------------------------------------------
 # perform a basic search 

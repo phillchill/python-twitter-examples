@@ -7,13 +7,13 @@
 
 from twitter import *
 
-user = "ideoforms"
-
 #-----------------------------------------------------------------------
 # load our API credentials 
 #-----------------------------------------------------------------------
 config = {}
 execfile("config.py", config)
+
+user = config["username"]
 
 #-----------------------------------------------------------------------
 # create twitter API object

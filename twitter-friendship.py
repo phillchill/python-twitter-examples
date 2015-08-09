@@ -22,8 +22,8 @@ twitter = Twitter(
 #-----------------------------------------------------------------------
 # the usernames whose relationship we want to examine
 #-----------------------------------------------------------------------
-source = "ideoforms"
-target = "lewisrichard"
+source = config["username"]
+target = "ideoforms"
 
 #-----------------------------------------------------------------------
 # perform the API query

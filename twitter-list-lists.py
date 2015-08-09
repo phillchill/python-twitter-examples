@@ -10,7 +10,7 @@ from twitter import *
 #-----------------------------------------------------------------------
 # the list of users that we want to examine
 #-----------------------------------------------------------------------
-users = [ "ideoforms", "GoldsmithsLEU", "mocost" ]
+users = [ config["username"], "GoldsmithsLEU", "mocost" ]
 
 #-----------------------------------------------------------------------
 # load our API credentials 
